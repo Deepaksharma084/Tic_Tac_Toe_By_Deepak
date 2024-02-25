@@ -1,0 +1,250 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #cad2c5;
+}
+
+#containar {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#Winner1 {
+    font-size: 12rem;
+    color: #000000;
+}
+
+#winner {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #e79b43;
+    /* text-shadow: 2px 2px 3px #2f3e46; */
+}
+
+.hide {
+    display: none;
+}
+
+#newGame {
+    padding: 8px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #2f3e46;
+    color: #cad2c5;
+
+}
+
+#newGame:hover {
+    cursor: pointer;
+}
+
+#about {
+    font-size: 4rem;
+    font-family: "https: //fonts.googleapis.com/css2?family=Anton&family=Black+Ops+One&family=DM+Serif+Display&display=swap";
+}
+
+#game {
+    height: 60vmin;
+    width: 55vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.box {
+    height: 17vmin;
+    width: 17vmin;
+    background-color: #52796f;
+    margin: 4px;
+    border: none;
+    border-radius: 8px;
+    /* box-shadow: 5px 5px 3px #354f52; */
+    font-size: 18vmin;
+    color: rgb(255, 255, 255);
+    /* text-shadow: 4px 4px 3px #2f3e46; */
+    /* font-family: "https: //fonts.googleapis.com/css2?family=Anton&family=Black+Ops+One&family=DM+Serif+Display&display=swap"; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box1 {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+#box2 {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+#box3 {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+#box4 {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+#box5 {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+#box6 {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+#box7 {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+#box8 {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+#box9 {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+/* .box:hover {
+    box-shadow: inset 3px 3px 3px #899798, 4px 4px 3px #354f52;
+    cursor: pointer;
+} */
+
+#resetGame {
+    padding: 8px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #2f3e46;
+    color: #cad2c5;
+
+
+}
+
+#resetGame:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 634px) {
+    #containar {
+        height: 100vh;
+
+    }
+
+    #newGame {
+        margin-top: 7vh;
+    }
+
+    #winner {
+        margin-bottom: 0vh;
+    }
+
+    #winner1 {
+        margin: 0px;
+    }
+
+    #winnerDiv {
+        margin-top: 40vmin;
+        margin-bottom: 10vmin;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #game {
+        height: 90vmin;
+        width: 85vmin;
+    }
+
+    .box {
+        height: 25vmin;
+        width: 28vmin;
+    }
+
+    #gameDiv {
+        margin-right: 4vmin;
+        margin-top: 0vh;
+        margin-bottom: 30vmin;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+}
+
+@media (min-width: 634px) and (max-width:7000px) {
+
+    #containar {
+        height: 100vh;
+
+    }
+
+    #newGame {
+        margin-top: 7vh;
+    }
+
+    #winner {
+        margin-bottom: 0vh;
+    }
+
+    #winner1 {
+        margin: 0px;
+    }
+
+    #winnerDiv {
+        margin-top: 30vmin;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #game {
+        height: 90vmin;
+        width: 85vmin;
+    }
+
+    .box {
+        height: 25vmin;
+        width: 28vmin;
+    }
+
+    #gameDiv {
+        margin-bottom: 25vmin;
+        height: 90vmin;
+        /* margin-top: 20vh; */
+        /* margin-bottom: 95vh; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
